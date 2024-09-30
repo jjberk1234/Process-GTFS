@@ -14,4 +14,4 @@ ProcessGTFS.py includes two classes: GTFSNetwork and S_Hash. These classes enabl
 
 ## Usage
 
-An example notebook ```Processing GTFS Example.ipynb``` is included.
+An example jupyter notebook ```Processing GTFS Example.ipynb``` demonstrates usage of this package.
