@@ -14,4 +14,19 @@ ProcessGTFS.py includes two classes: GTFSNetwork and S_Hash. These classes enabl
 
 ## Usage
 
-An example jupyter notebook ```Processing GTFS Example.ipynb``` demonstrates usage of this package.
+An example notebook ```Processing GTFS Example.ipynb``` is included.
+
+Processing requries the following GTFS files:
+1. stop_times.txt
+2. stops.txt
+3. trips.txt
+4. routes.txt
+5. shapes.txt
+
+### Class GTFSNetwork
+
+This class stores all necessary data from the provided GTFS files and generates the speeds and travel times for all edges in the network.
+
+### Class S_Hash
+
+This class defines spatial hashes which are used to quickly find stops within a defined threshold. The desired threshold must be defined at initialization. 
